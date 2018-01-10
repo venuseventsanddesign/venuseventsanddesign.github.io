@@ -5,7 +5,253 @@
         <link href="./styles/styles.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style>
+          * {
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    line-height: 4rem;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #669966;
+}
+
+a:hover {
+    color: #FFCC00;
+}
+
+.green {
+    color: #669966;
+}
+
+#hgreen, #green {
+    color: #669966;
+    font-weight: bold;
+}
+
+
+a:hover#green, a:hover#hgreen  {
+    color: #FFCC00;
+}
+
+.yellow {
+    color: #FFCC00;
+}
+
+a:hover h3 {
+color: #669966;
+}
+
+#hyellow, #yellow {
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+.brown {
+    color: #333333;
+}
+
+#home {
+    font-weight: bold;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+    line-height: 3.5rem; 
+    position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+}
+  
+.nav a:hover {
+    color: #FFCC00;
+    background-color: #669966;
+ }
+ 
+ #hnav {
+     background-color: #FFCC00;
+ }
+
+#gnav {
+    background-color: #669966;
+}
+
+h1.heading {
+    display: inline;
+}
+
+.mheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.heading, .mpheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.content, .mpcontent {
+    font-size: 1.15rem;
+}
+
+.mpcontent {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    width: 75%;
+}
+
+.list ul {
+    border-left: 1px solid #333333;
+}
+
+table {
+    width: 100%;
+}
+
+.home {
+    width: 50%;
+    vertical-align: top;
+    padding: 5px;
+}
+
+td {
+    width: 33%;
+    margin: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.list {
+    font-size: 1.15rem;
+    padding: 5px;
+}
+
+.padding{
+        margin: 35px 0px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.width {
+    width: 75%;
+    margin-left: 0;
+    padding: 5px;
+}
+
+hr {
+    margin-left: 0;
+    width: 75%;
     
+}
+
+.search {
+    float: right;
+}
+
+input {
+    border: 1px solid #333333;
+    padding: 10px;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    padding: 9px;
+    border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
+}
+
+img {
+    float: right;
+    width: 12%;
+    margin-right: 100px;
+    max-height: 12%;
+}
+
+.backgroundimage {
+    background-image: url("../images/wascenery.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#heading {
+    font-size: 3rem;
+    position: relative;
+    top: 250px;
+    color: white;
+}
+
+#content {
+    font-size: 1.5rem;
+    position: relative;
+    top: 250px;
+    color: white;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.5rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.whitespace {
+    height: 30px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #669966;
+}
+
+a:hover.linkcolor {
+    color: #FFCC00;
+}
+        </style>
    </head>
     <body>
         <header>
