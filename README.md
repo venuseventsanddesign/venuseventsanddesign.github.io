@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> Welcome to Washington! </title>     
-        <link href="./styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <style>
